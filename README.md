@@ -36,7 +36,7 @@ from torch.nn import functional as F
 from self_evaluate.utils.utils import init_model_and_transform
 
 
-model_name = "phi35V" # llava_16
+model_name = "phi35V"
 base_model_path="DeepGlint-AI/UniME-Phi3.5-V-4.2B"
 # model_name = "llava_16"
 # base_model_path="DeepGlint-AI/UniME-LLaVA-1.6-7B"
