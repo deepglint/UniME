@@ -119,6 +119,12 @@ python eval.py --model_name ../models/uniME_llava_16 \
   --dataset_split test --per_device_eval_batch_size 16 \
   --image_dir eval_images/ 
 ```
+## 🔢 Results
+### Diverse Retrieval
+![teaser](figures/res1.png)
+
+### MMEB
+![teaser](figures/res2.png)
 
 
 ## 👏 Acknowledgements
