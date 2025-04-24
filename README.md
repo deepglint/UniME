@@ -6,7 +6,7 @@
 ## 🎺 News
 - [2025/04/24]: ✨We release the evaluate and demo code.
 - [2025/04/24]: ✨The paper of UniME is submitted to arxiv.
-- [2025/04/22]: ✨We release the model weight of UniME in [🤗Huggingface](https://huggingface.co/collections/DeepGlint-AI/unime-6805fa16ab0071a96bef29d2)
+- [2025/04/22]: ✨We release the model weight of UniME in [🤗 Huggingface](https://huggingface.co/collections/DeepGlint-AI/unime-6805fa16ab0071a96bef29d2)
 
 ## 💡 Highlights
 To enhance the MLLM's embedding capability, we propose textual discriminative knowledge distillation. The training process involves decoupling the MLLM's LLM component and processing text with the prompt "Summarize the above sentences in one word.", followed by aligning the student (MLLM) and teacher (NV-Embed V2) embeddings via KL divergence on batch-wise similarity distributions. **Notably, only the LLM component is fine-tuned during this process, while all other parameters remain frozen**. 
