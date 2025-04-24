@@ -37,7 +37,9 @@ from self_evaluate.utils.utils import init_model_and_transform
 
 
 model_name = "phi35V" # llava_16
-base_model_path = "models/uniME_phi35V" # models/uniME_llava_16
+base_model_path="DeepGlint-AI/UniME-Phi3.5-V-4.2B"
+# model_name = "llava_16"
+# base_model_path="DeepGlint-AI/UniME-LLaVA-1.6-7B"
 
 if model_name == "phi35V":
     img_prompt = '<|user|>\n<|image_1|>\nSummary above image in one word: <|end|>\n<|assistant|>\n'
@@ -74,7 +76,7 @@ print("Score: ", Score) # Score: 0.59
 
 ## 🌡️ Evaluation
 ### Diverse Retrieval
-1.Please prepare data follow [flickr,CoCO](https://github.com/kongds/E5-V#evaulate), [ShareGPT4V, Urban1k](https://github.com/beichenzbc/Long-CLIP#evaluation), [SugarCrepe](https://github.com/RAIVNLab/sugar-crepe)
+1.Please prepare data follow [Flickr, CoCo](https://github.com/kongds/E5-V#evaulate), [ShareGPT4V, Urban1k](https://github.com/beichenzbc/Long-CLIP#evaluation), [SugarCrepe](https://github.com/RAIVNLab/sugar-crepe)
 
 2.Edit data path in "self_evaluate/utils/data_path.py".
 ```bash
