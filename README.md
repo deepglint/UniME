@@ -1,4 +1,14 @@
 # Breaking the Modality Barrier: Universal Embedding Learning with Multimodal LLMs
+<a href="https://github.com/GaryGuTC">Tiancheng Gu*</a>,</span>
+<a href="https://kaicheng-yang0828.github.io">Kaicheng Yang*</a>,</span>
+Ziyong Feng,</span>
+Xingjun Wang,</span>
+Yanzhao Zhang,</span>
+Dingkun Long,</span>
+Yingda Chen,</span>
+<a href="https://weidong-tom-cai.github.io/">Weidong Cai</a>,</span>
+<a href="https://jiankangdeng.github.io">Jiankang Deng</a></span>
+
 [🏡 Project Page](https://garygutc.github.io/UniME) |  [📄 Paper]() | [🤗 UniME(Phi3.5-V-4.2B)](https://huggingface.co/DeepGlint-AI/UniME-Phi3.5-V-4.2B) | [🤗 UniME(LLaVA-v1.6-7B)](https://huggingface.co/DeepGlint-AI/UniME-LLaVA-1.6-7B) 
 
 ![teaser](figures/fig1.png)
