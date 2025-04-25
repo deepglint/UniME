@@ -9,7 +9,7 @@ Yingda Chen,</span>
 <a href="https://weidong-tom-cai.github.io/">Weidong Cai</a>,</span>
 <a href="https://jiankangdeng.github.io">Jiankang Deng</a></span>
 
-[🏡 Project Page](https://garygutc.github.io/UniME) |  [📄 Paper]() | [🤗 UniME(Phi3.5-V-4.2B)](https://huggingface.co/DeepGlint-AI/UniME-Phi3.5-V-4.2B) | [🤗 UniME(LLaVA-v1.6-7B)](https://huggingface.co/DeepGlint-AI/UniME-LLaVA-1.6-7B) 
+[🏡 Project Page](https://garygutc.github.io/UniME) |  [📄 Paper](https://arxiv.org/pdf/2504.17432) | [🤗 UniME(Phi3.5-V-4.2B)](https://huggingface.co/DeepGlint-AI/UniME-Phi3.5-V-4.2B) | [🤗 UniME(LLaVA-v1.6-7B)](https://huggingface.co/DeepGlint-AI/UniME-LLaVA-1.6-7B) 
 
 ![teaser](figures/fig1.png)
 
@@ -146,5 +146,13 @@ Many thanks to the code bases from [E5-V](https://github.com/kongds/E5-V), [VLM2
 ## 📖 Citation
 If you find this repository useful, please use the following BibTeX entry for citation.
 ```latex
-Coming soon
+@misc{gu2025breakingmodalitybarrieruniversal,
+      title={Breaking the Modality Barrier: Universal Embedding Learning with Multimodal LLMs}, 
+      author={Tiancheng Gu and Kaicheng Yang and Ziyong Feng and Xingjun Wang and Yanzhao Zhang and Dingkun Long and Yingda Chen and Weidong Cai and Jiankang Deng},
+      year={2025},
+      eprint={2504.17432},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.17432}, 
+}
 ```
