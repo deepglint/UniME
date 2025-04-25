@@ -1,11 +1,11 @@
 # Breaking the Modality Barrier: Universal Embedding Learning with Multimodal LLMs
-<a href="https://github.com/GaryGuTC">Tiancheng Gu*</a>,</span>
+<a href="https://scholar.google.com/citations?hl=zh-CN&user=9etrpbYAAAAJ">Tiancheng Gu*</a>,</span>
 <a href="https://kaicheng-yang0828.github.io">Kaicheng Yang*</a>,</span>
 Ziyong Feng,</span>
-Xingjun Wang,</span>
+<a href="https://github.com/wangxingjun778">Xingjun Wang</a>,</span>
 Yanzhao Zhang,</span>
-Dingkun Long,</span>
-Yingda Chen,</span>
+<a href="https://scholar.google.com/citations?user=jb1Htg4AAAAJ&hl=zh-CN">Dingkun Long</a>,</span>
+<a href="https://scholar.google.com/citations?hl=en&user=ENJA2f8AAAAJ&view_op=list_works&sortby=pubdate">Yingda Chen</a>,</span>
 <a href="https://weidong-tom-cai.github.io/">Weidong Cai</a>,</span>
 <a href="https://jiankangdeng.github.io">Jiankang Deng</a></span>
 
