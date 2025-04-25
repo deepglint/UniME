@@ -15,7 +15,7 @@ Yanzhao Zhang,</span>
 
 ## 🎺 News
 - [2025/04/24]: ✨We release the evaluate and demo code.
-- [2025/04/24]: ✨The paper of UniME is submitted to arxiv.
+- [2025/04/24]: ✨The paper of UniME is submitted to [arxiv](https://arxiv.org/pdf/2504.17432).
 - [2025/04/22]: ✨We release the model weight of UniME in [🤗 Huggingface](https://huggingface.co/collections/DeepGlint-AI/unime-6805fa16ab0071a96bef29d2)
 
 ## 💡 Highlights
