@@ -9,21 +9,28 @@ Yanzhao Zhang,</span>
 <a href="https://weidong-tom-cai.github.io/">Weidong Cai</a>,</span>
 <a href="https://jiankangdeng.github.io">Jiankang Deng</a></span>
 
-[🏡 Project Page](https://garygutc.github.io/UniME) |  [📄 Paper](https://arxiv.org/pdf/2504.17432) | UniME(Phi3.5-V-4.2B) [🤗](https://huggingface.co/DeepGlint-AI/UniME-Phi3.5-V-4.2B)/[🤖](https://www.modelscope.cn/models/AI-ModelScope/UniME-Phi3.5-V-4.2B) | UniME(LLaVA-v1.6-7B)[🤗](https://huggingface.co/DeepGlint-AI/UniME-LLaVA-1.6-7B)/[🤖](https://www.modelscope.cn/models/AI-ModelScope/UniME-LLaVA-1.6-7B)
+[🏡 Project Page](https://garygutc.github.io/UniME) |  [📄 Paper](https://arxiv.org/pdf/2504.17432) | UniME(Phi3.5-V-4.2B) [🤗](https://huggingface.co/DeepGlint-AI/UniME-Phi3.5-V-4.2B)/[🤖](https://www.modelscope.cn/models/AI-ModelScope/UniME-Phi3.5-V-4.2B) | UniME(LLaVA-v1.6-7B)[🤗](https://huggingface.co/DeepGlint-AI/UniME-LLaVA-1.6-7B)/[🤖](https://www.modelscope.cn/models/AI-ModelScope/UniME-LLaVA-1.6-7B) | UniME(LLaVA-OneVision-7B)[🤗](https://huggingface.co/DeepGlint-AI/UniME-LLaVA-OneVision-7B)
 
-![teaser](figures/fig1.png)
+UniME achieves the top ranking on the MMEB leaderboard using only 336×336 image resolution.（The screenshot was captured at 08:00 UTC+8 on May 6, 2025.）
+
+![teaser](figures/MMEB.png)
+
 
 ## 🎺 News
+- [2025/05/06]: ✨We release the model weight of UniME-LLaVA-OneVision-7B in [🤗 Huggingface](https://huggingface.co/DeepGlint-AI/UniME-LLaVA-OneVision-7B), which achieves the top ranking on the MMEB leaderboard.
 - [2025/04/24]: ✨We release the evaluate and demo code.
 - [2025/04/24]: ✨The paper of UniME is submitted to [arxiv](https://arxiv.org/pdf/2504.17432).
 - [2025/04/22]: ✨We release the model weight of UniME in [🤗 Huggingface](https://huggingface.co/collections/DeepGlint-AI/unime-6805fa16ab0071a96bef29d2)
 
 ## 💡 Highlights
+![teaser](figures/fig1.png)
+
 To enhance the MLLM's embedding capability, we propose textual discriminative knowledge distillation. The training process involves decoupling the MLLM's LLM component and processing text with the prompt "Summarize the above sentences in one word.", followed by aligning the student (MLLM) and teacher (NV-Embed V2) embeddings via KL divergence on batch-wise similarity distributions. **Notably, only the LLM component is fine-tuned during this process, while all other parameters remain frozen**. 
 
 ![teaser](figures/fig2.png)
 
 After that, we propose hard negative enhanced instruction tuning enhances multimodal systems by improving visual sensitivity, strengthening cross-modal alignment, and boosting instruction-following capabilities. At its core are two key innovations: a false negative filtering mechanism using a similarity threshold to eliminate misleading samples, and an automatic hard negative sampling strategy that selects top-k similar but non-matching examples to increase training difficulty. 
+
 ![teaser](figures/fig3.png)
 
 ## 📗 Enviroment
