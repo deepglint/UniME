@@ -11,6 +11,8 @@ Yanzhao Zhang,</span>
 
 [🏡 Project Page](https://garygutc.github.io/UniME) |  [📄 Paper](https://arxiv.org/pdf/2504.17432) | UniME(Phi3.5-V-4.2B) [🤗](https://huggingface.co/DeepGlint-AI/UniME-Phi3.5-V-4.2B)/[🤖](https://www.modelscope.cn/models/AI-ModelScope/UniME-Phi3.5-V-4.2B) | UniME(LLaVA-v1.6-7B)[🤗](https://huggingface.co/DeepGlint-AI/UniME-LLaVA-1.6-7B)/[🤖](https://www.modelscope.cn/models/AI-ModelScope/UniME-LLaVA-1.6-7B) | UniME(LLaVA-OneVision-7B)[🤗](https://huggingface.co/DeepGlint-AI/UniME-LLaVA-OneVision-7B)/[🤖](https://modelscope.cn/models/AI-ModelScope/UniME-LLaVA-OneVision-7B)
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/deepglint/UniME)
+
 UniME achieves the top ranking on the MMEB leaderboard training using only 336×336 image resolution.（The screenshot was captured at 08:00 UTC+8 on May 6, 2025.）
 
 ![teaser](figures/MMEB.png)
