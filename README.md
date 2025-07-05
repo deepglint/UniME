@@ -19,6 +19,7 @@ UniME achieves the top ranking on the MMEB leaderboard training using only 336×
 
 
 ## 🎺 News
+- [2025/07/05]: ✨UniME has been accepted by ACM MM2025.
 - [2025/05/06]: ✨We release the model weight of UniME-LLaVA-OneVision-7B in [🤗 Huggingface](https://huggingface.co/DeepGlint-AI/UniME-LLaVA-OneVision-7B), which achieves the top ranking on the MMEB leaderboard.
 - [2025/04/24]: ✨We release the evaluate and demo code.
 - [2025/04/24]: ✨The paper of UniME is submitted to [arxiv](https://arxiv.org/pdf/2504.17432).
