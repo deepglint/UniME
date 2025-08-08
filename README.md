@@ -94,6 +94,9 @@ with torch.no_grad():
 print("Score: ", Score) # Score: 0.59
 ```
 
+## 🌡️ Training Example Code
+1. We provide [example code](https://github.com/deepglint/UniME/blob/main/loss.py) in stage 2, please compare it with the [loss function in VLM2Vec](https://github.com/TIGER-AI-Lab/VLM2Vec/blob/main/src/loss.py) for editing and using. If you have any questions, please ask us in the Github issues.
+   
 ## 🌡️ Evaluation
 ### Diverse Retrieval
 1.Please prepare data follow [Flickr, CoCo](https://github.com/kongds/E5-V#evaulate), [ShareGPT4V, Urban1k](https://github.com/beichenzbc/Long-CLIP#evaluation), [SugarCrepe](https://github.com/RAIVNLab/sugar-crepe)
