@@ -19,6 +19,8 @@ UniME achieves the top ranking on the MMEB leaderboard training using only 336×
 
 
 ## 🎺 News
+- [2025/11/09]: 🔥[UniME-v2](https://github.com/GaryGuTC/UniME-v2) has been Accepted by AAAI2026 as Oral Present.
+- [2025/10/15]: ✨We release the model, data, and code of UniME-V2 in [🤗 Huggingface](https://huggingface.co/collections/TianchengGu/unime-v2).
 - [2025/07/05]: ✨UniME has been accepted by ACM MM2025.
 - [2025/05/06]: ✨We release the model weight of UniME-LLaVA-OneVision-7B in [🤗 Huggingface](https://huggingface.co/DeepGlint-AI/UniME-LLaVA-OneVision-7B), which achieves the top ranking on the MMEB leaderboard.
 - [2025/04/24]: ✨We release the evaluate and demo code.
@@ -159,7 +161,17 @@ Many thanks to the code bases from [E5-V](https://github.com/kongds/E5-V), [VLM2
 ## 📖 Citation
 If you find this repository useful, please use the following BibTeX entry for citation.
 ```latex
-@misc{gu2025breakingmodalitybarrieruniversal,
+@misc{unimev2,
+      title={UniME-V2: MLLM-as-a-Judge for Universal Multimodal Embedding Learning}, 
+      author={Tiancheng Gu and Kaicheng Yang and Kaichen Zhang and Xiang An and Ziyong Feng and Yueyi Zhang and Weidong Cai and Jiankang Deng and Lidong Bing},
+      year={2025},
+      eprint={2510.13515},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.13515}, 
+}
+
+@misc{unime,
       title={Breaking the Modality Barrier: Universal Embedding Learning with Multimodal LLMs}, 
       author={Tiancheng Gu and Kaicheng Yang and Ziyong Feng and Xingjun Wang and Yanzhao Zhang and Dingkun Long and Yingda Chen and Weidong Cai and Jiankang Deng},
       year={2025},
