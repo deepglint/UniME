@@ -148,7 +148,7 @@ python eval.py --model_name ../models/uniME_llava_16 \
 ```
 ## 🔢 Results
 ### Diverse Retrieval
-![teaser](figures/res1.png)
+![teaser](figures/res1.jpg)
 
 ### MMEB
 ![teaser](figures/res2.png)
